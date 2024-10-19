@@ -1,4 +1,5 @@
-## Hi there 👋
+## GOELA_DJAWE27 there +6285283938946
+
 
 <!--f6a6057a80791d058d79a0130289fedba5609c91
 
@@ -9,4 +10,31 @@
 👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+--># Steps represent a sequence of tasks that
+will be executed as part of the job +
+steps:
++
+# Checks-out your repository under
+$GITHUB
+_WORKSPACE, so your job can access it
++
+- uses: actions/checkout@v4
++
++
+# Runs a single command using the
++
++
+runners shell
+- name: Run a one-line script run: echo Hello, world!
++
++
+# Runs a set of commands using the
++
+runners shell
+- name: Run a multi-line script
++
+run: 1
++
+echo Add other actions to build,
++
+echo test, and deploy your project.
